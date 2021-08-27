@@ -1,0 +1,126 @@
+@import '../../../index.scss';
+
+.help-tips{
+    margin-top: 67px;
+    color: $white;
+    margin-bottom: -124px;
+
+    .pathHelp{
+        display: none;
+    }
+
+    .title{
+        margin-bottom: 30px;
+        font-size: $font32;
+        font-weight: $fontw900;
+        text-align: left;
+    }
+
+    .help-tips-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .help-tips-content{
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+
+            .images{
+                width: 311px;
+                height: 176px;
+            }
+
+            .caption{
+                background-color: #00000073;
+                position: absolute;
+                bottom: 0;
+                width: 311px;
+                height: 72px;
+
+                .caption-title{
+                    width: 218px;
+                    font-size: $font16;
+                    font-weight: bold;
+                    letter-spacing: -0.57px;
+                }
+
+                .detail-tips{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .help-tips{
+        margin-top: 100px;
+        color: $white;
+        margin-bottom: 60px;
+
+        .pathHelp{
+            display: block;
+            width: 159px;
+            height: 195px;
+            position: absolute;
+            right: 9%;
+        }
+
+        .title{
+            margin-bottom: 30px;
+            font-size: $font32;
+            font-weight: $fontw900;
+            text-align: center;
+        }
+
+        .help-tips-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .help-tips-content{
+                margin: 0 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+                
+                .images{
+                    width: 311px;
+                    height: 176px;
+                }
+
+                .caption{
+                    background-color: #00000073;
+                    position: absolute;
+                    bottom: 0;
+                    width: 311px;
+                    height: 72px;
+
+                    .caption-title{
+                        width: 218px;
+                    }
+
+                    .detail-tips{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .help-tips{
+        .pathHelp{
+            right: 13%;
+        }
+    }
+}

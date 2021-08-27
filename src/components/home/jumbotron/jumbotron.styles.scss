@@ -1,0 +1,72 @@
+@import '../../../index.scss';
+
+.jumbo{
+    background-color: $pink;
+    height: 667px;
+    .bg-jumbotron{
+        background-image: url('../../../assets/bg-1.png');
+        height: 667px;
+        object-fit: contain;
+        background-position: center;
+        background-size: cover;
+
+        .weekend-from-home{
+            margin-top: 134px;
+            font-size: $font52;
+            font-weight: $fontw900;
+            color: $white;
+            line-height: 0.98;
+            text-align: center;
+        }
+
+        .stay-active{
+            font-size: $font16;
+            font-weight: $fontw600;
+            font-style: italic;
+            color: $white;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .robot{
+            margin-top: 67px;
+        //     -webkit-animation:spin 4s alternate infinite;
+        // -moz-animation:spin 4s alternate infinite;
+        // animation:spin 4s alternate infinite;
+        }
+        // @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+        // @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+        // @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .jumbo{
+        height: 768px;
+        background-color: $pink;
+        .bg-jumbotron{
+            background-image: url('../../../assets/bg-1.png');
+            height: 732px;
+        
+            .weekend-from-home{
+                margin-top: 151px;
+                font-size: $font62;
+                line-height: 0.82;
+            }
+
+            .stay-active{
+                font-size: $font21;
+            }
+        } 
+    }   
+}
+
+@media screen and (min-width: 1367px){
+    .jumbo{
+        height: 818px;
+        .bg-jumbotron{
+            background-image: url('../../../assets/bg-1@2x.png');
+            height: 818px;
+        }
+    }
+}

@@ -1,0 +1,190 @@
+@import '../../../index.scss';
+
+.information-sec{
+    background-color: $black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    
+    .testi-card{
+        margin-top: -155px;
+        color: $white;
+        position: relative;
+        text-align: center;
+        width: 771px;
+        overflow: hidden;
+        margin-bottom: -80px;
+
+        .rec .rec-item-wrapper{
+            width: 247px;
+            height: 140px;
+            min-width: 247px;
+            min-height: 140px;
+            padding: 20px;
+        }
+
+        .fXbfGn {
+            display: none;
+        }
+
+        .eEojdq{
+            display: none;
+        }
+
+        .kDAHyg{
+            display: none;
+        }
+
+
+        .title-card{
+            color: $white;
+            font-size: $font32;
+            font-weight: $fontw900;
+            text-shadow: 0 20px 30px $pink;
+            margin-bottom: 30px;
+            margin-top: 40px;
+            margin-right: 130px;
+        }
+
+        .title-testi{
+            font-size: $font32;
+            font-weight: $fontw900;
+            color: $black;
+            margin-top: 6px;
+        }
+
+        .description-testi{
+            font-size: $font12;
+            color: $black;
+        }
+
+    }
+
+
+    .detail-sec{
+        margin-top: 106px;
+        .detail{
+            margin-top: 67px;
+            text-align: left;
+            width: 311px;
+            color: $white;
+
+            .title{
+                margin-bottom: 30px;
+                font-size: $font32;
+                font-weight: $fontw900;
+            }
+
+            .description{
+                font-size: $font12;
+            }
+        }
+
+        .robotSet{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        #des-margin{
+            margin-bottom: 404px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .information-sec{  
+        
+        .testi-card{
+            margin-top: -155px;
+            text-shadow: 0 20px 30px $pink;
+            margin-bottom: -40px;
+
+            .eEojdq{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                color: $rich-blue;
+                width: 32px;
+                height: 32px;
+                background-color: $white;
+                opacity: 0.35;
+                object-fit: contain;
+                border: none;
+                min-width: 32px;
+                font-size: 11.2px;
+                line-height: 0;
+            }
+            .eEojdq:hover{
+                opacity: 1;
+                background-color: $white;
+                color: $rich-blue;
+            }
+
+            .kDAHyg:hover{
+                opacity: 1;
+                background-color: $white;
+                color: $rich-blue;
+            }
+    
+            .kDAHyg{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                color: $rich-blue;
+                width: 32px;
+                height: 32px;
+                background-color: $white;
+                opacity: 0.35;
+                object-fit: contain;
+                border: none;
+                min-width: 32px;
+                font-size: 11.2px;
+                line-height: 0;
+            }
+
+            .title-card{
+                font-size: $font32;
+                font-weight: $fontw900;
+                margin-bottom: 30px;
+                margin-top: 0;
+                margin-right: 0;
+            }
+    
+            .title-testi{
+                font-size: $font32;
+                font-weight: $fontw900;
+            }
+    
+        }
+    
+    
+        .detail-sec{
+            margin-top: 67px;
+            .detail{
+                margin-top: 67px;
+                text-align: center;
+                width: 619px;
+                color: $white;
+    
+                .title{
+                    margin-bottom: 30px;
+                    font-size: $font32;
+                    font-weight: $fontw900;
+                }
+    
+                .description{
+                    font-size: $font18;
+                }
+            }
+
+            #des-margin{
+                margin-bottom: 203px;
+            }
+        }
+    }
+}

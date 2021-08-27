@@ -1,0 +1,31 @@
+// font size //
+$font62: 62px;
+$font52: 52px;
+$font32: 32px;
+$font21: 21px;
+$font16: 16px;
+$font18: 18px;
+$font12: 12px;
+// font size //
+
+// font weight //
+$fontw900: 900;
+$fontw600: 600;
+$fontw500: 500;
+// font weight //
+
+// color //
+$pink: #eebece;
+$shadow-pink: rgba(249, 131, 171, 0.5);
+$rich-blue:#0b24fb;
+$black:#000000;
+$white: #ffffff;
+// color //
+
+body {
+  margin: 0;
+  font-family: 'Work Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}

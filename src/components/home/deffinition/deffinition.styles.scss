@@ -1,0 +1,84 @@
+@import '../../../index.scss';
+
+.deffinition{
+    background-color: $pink;
+    height: 648px;
+    
+    .robotDef{
+        right: 0;
+        position: absolute;
+    }
+
+    .def-sec{
+        margin: 0 32px;
+
+        .caption-deffinition{
+            margin-top: 221px;
+            width: 311px;
+            text-align: right;
+            font-size: $font16;
+            line-height: 1.5;
+            letter-spacing: -0.57px;
+            font-weight: $fontw500;
+            color: $black;
+
+            .text-style-1{
+                color: $rich-blue;
+                font-weight: bold;
+            }
+        }
+
+        .weekend-team{
+            width: 124px;
+            height: 19px;
+            font-size: $font16;
+            font-style: italic;
+            text-align: right;
+            color: $white;
+            font-weight: $fontw600;
+            margin-top: 20px;
+        }
+    }
+
+    .oval{
+        margin-top: 38px;
+        margin-left: 57px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .deffinition{
+        background-color: $pink;
+        height: 591px;
+
+        .robotDef{
+            right: 0;
+            position: absolute;
+        }
+        .def-sec{
+            margin: 0 0;
+            .caption-deffinition{
+                margin-top: 152px;
+                width: 619px;
+                font-size: $font21;
+                text-align: right;
+                line-height: 1.52;
+                letter-spacing: -0.75px;
+                font-weight: $fontw500;
+            }
+
+            .weekend-team{
+                width: 163px;
+                height: 25px;
+                font-size: $font21;
+                margin-top: 30px;
+            }
+        }
+
+        .oval{
+            margin-top: 38px;
+            margin-left: 283px;
+            margin-bottom: 2px;
+        }
+    }
+}
